@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema do framework Android (sem AppCompat/Material), para manter o exemplo simples -->
+    <style name="Theme.GpsMapas" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/azul</item>
+        <item name="android:colorAccent">@color/azul</item>
+        <item name="android:windowBackground">@color/painel</item>
+        <!-- Ícones escuros na barra de status/navegação, pois o fundo é claro -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

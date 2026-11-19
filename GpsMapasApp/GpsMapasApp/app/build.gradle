@@ -1,0 +1,35 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'br.edu.aula.gpsmapas'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "br.edu.aula.gpsmapas"
+        minSdk 24
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    // Mapa com dados do OpenStreetMap (não usa Google Play Services nem chave de API)
+    implementation 'org.osmdroid:osmdroid-android:6.1.20'
+
+    // Testes unitários (rodam na JVM, sem emulador)
+    testImplementation 'junit:junit:4.13.2'
+}

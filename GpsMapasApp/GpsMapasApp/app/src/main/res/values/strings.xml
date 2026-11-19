@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS e Mapas</string>
+    <string name="titulo">GPS e Mapas com OpenStreetMap</string>
+    <string name="btn_localizar">Onde estou?</string>
+    <string name="btn_acompanhar">Acompanhar</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="dica_busca">Endereço ou lugar (ex.: Farol da Barra)</string>
+    <string name="status_inicial">Toque no mapa para marcar pontos, busque um endereço ou use o GPS.</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_ver_salvos">Ver salvos</string>
+    <string name="btn_limpar">Limpar</string>
+    <string name="resumo_vazio">Nenhum ponto marcado.</string>
+</resources>

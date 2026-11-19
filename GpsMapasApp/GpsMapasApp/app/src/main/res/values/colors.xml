@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fundo">#F5F7FA</color>
+    <color name="painel">#FFFFFF</color>
+    <color name="azul">#1F4E79</color>
+    <color name="texto">#1D2733</color>
+    <color name="texto_suave">#5B6B7C</color>
+    <color name="erro">#B42318</color>
+</resources>

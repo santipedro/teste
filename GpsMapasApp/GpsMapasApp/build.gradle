@@ -1,0 +1,4 @@
+// Arquivo de build do projeto (raiz). A versão do Android Gradle Plugin (AGP) é definida aqui.
+plugins {
+    id 'com.android.application' version '8.13.2' apply false
+}
